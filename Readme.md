@@ -217,7 +217,7 @@ a=A()
 | \\      | 实例方法     | 类方法            | 静态方法            |
 | :------ | :------- | :------------- | :-------------- |
 | a = A() | a.foo(x) | a.class_foo(x) | a.static_foo(x) |
-| A       | 不可用      | A.class_foo(x) | A.static_foo(x) |
+| A       | A.foo    | A.class_foo(x) | A.static_foo(x) |
 
 更多关于这个问题:
 1. http://stackoverflow.com/questions/136097/what-is-the-difference-between-staticmethod-and-classmethod-in-python
